@@ -9,6 +9,7 @@ AraAraERC20 is a simple ERC20 token contract built using the OpenZeppelin librar
 - **ERC20 Standard**: Implements the ERC20 standard for fungible tokens.
 - **Minting**: Allows the contract owner to mint new tokens.
 - **Burning**: Allows any user to burn their tokens.
+- **Transfers**: Allows users to transfer tokens to other addresses.
 - **Ownable**: Ownership of the contract is restricted to a single address.
 
 ## Requirements
