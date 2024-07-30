@@ -16,5 +16,14 @@ contract AraAraERC20 is ERC20, Ownable {
     function burn(uint256 amount) external {
         _burn(msg.sender, amount);
     }
-    
+
+    // Function to transfer tokens
+    function transferTokens(address recipient, uint256 amount) external returns (bool) {
+        return transfer(recipient, amount);
+    }
+
+    // Function to approve and transfer tokens from another account
+    function transferFromAccount(address sender, address recipient, uint256 amount) external returns (bool) {
+        return transferFrom(sender, recipient, amount);
+    }
 }
