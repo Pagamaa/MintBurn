@@ -18,4 +18,3 @@ contract AraAraERC20 is ERC20, Ownable {
     }
     
 }
-
